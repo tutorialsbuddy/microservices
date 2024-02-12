@@ -1,0 +1,6 @@
+# Application name for API Gateway
+spring:
+  application:
+    name: api-gateway
+  config:
+    import: optional:configserver:http://localhost:8888

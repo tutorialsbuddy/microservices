@@ -1,0 +1,8 @@
+# Application name for User Service
+spring:
+  application:
+    name: user-service
+
+# Import configurations from the config-server
+  config:
+    import: optional:configserver:http://localhost:8888

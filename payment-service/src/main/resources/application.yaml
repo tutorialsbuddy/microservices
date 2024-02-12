@@ -1,0 +1,9 @@
+# Application name for Payment Service
+spring:
+  application:
+    name: payment-service
+
+# Import configurations from the config-server
+  config:
+    import: optional:configserver:http://localhost:8888
+

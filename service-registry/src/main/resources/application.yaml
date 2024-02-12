@@ -1,0 +1,20 @@
+# Configure the server port (default is 8761)
+server:
+  port: 8761
+  
+# Set the application name
+spring:
+  application:
+    name: registry-service
+
+# Enable Eureka Server
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false # Disable registration of this application with Eureka
+    fetchRegistry: false # Disable fetching the registry information from Eureka
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+

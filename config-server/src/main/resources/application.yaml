@@ -1,0 +1,14 @@
+# Configure the server port (default is 8888)
+server:
+  port: 8888
+
+# Set the application name
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native # Lookup to load the config files from the local classpath and not from GIT
+
+
+
+
