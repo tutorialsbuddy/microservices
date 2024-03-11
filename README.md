@@ -1,1 +1,1 @@
-Microservices Using Spring Boot Complete Example https://www.tutorialsbuddy.com/building-microservices
+Microservices Using Spring Boot Complete Example https://www.tutorialsbuddy.com/building-microservices-spring-boot
